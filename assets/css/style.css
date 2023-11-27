@@ -7,6 +7,42 @@ body {
     background-color: black;
 }
 
+/* TODO Curtian overlay */
+.curtain-navbar .fa-xmark {
+    color: #FFFFFF;
+    font-size: 44px;
+    position: absolute;
+    right: 40px;
+}
+
+.curtain-navbar {
+    background-color: rgba(156, 156, 156, 156);
+    height: 100vh;
+    position: fixed;
+    width: 0%;
+    overflow-x: hidden;
+}
+
+.curtain-navbar a {
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-size: 34px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.curtain-navbar .overlay-nav-links {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.curtain-navbar a:hover {
+    transform: translateX(20px);
+}
+
 /* TODO -----HEADER start ------*/
 .nav-links,
 .btn {
@@ -97,6 +133,10 @@ body {
 
 @media(min-width:768px) {
 
+    .curtain-navbar {
+        display: none;
+    }
+
     .nav-links,
     .btn {
         display: block;
@@ -118,6 +158,7 @@ body {
         justify-content: space-between;
         margin: 0px 3px;
         text-decoration: none;
+
     }
 
     .header-section {
