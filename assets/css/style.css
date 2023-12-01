@@ -4,7 +4,8 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: black;
+    background-color: rgb(9, 16, 30);
+    border: none;
 }
 
 /* TODO Curtian overlay */
@@ -125,11 +126,71 @@ body {
 
 .buttons {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-
 /* TODO -----Introduction end----- */
+
+/* TODO -----Logo-impuss start----- */
+.logo-ipsum-2,
+.logo-ipsum-3,
+.logo-ipsum-4 {
+    display: none;
+}
+
+.logo-ipsumm {
+    width: 250px;
+    margin: auto;
+}
+
+.logo-ipsum-1 {
+    margin: 15px 0;
+    width: 100%;
+}
+
+/* TODO -----Logo-impuss end----- */
+
+/* TODO -----Center start----- */
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
+.center-left-side {
+    width: 320px;
+    margin: 20px 0;
+}
+
+.center-left-side img {
+    width: 100%;
+}
+
+.apply-deep-data {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    margin: 10px 0;
+}
+
+.visual-mockups {
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.learn-more {
+    background-color: #3A68B8;
+    color: #FFFFFF;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* TODO -----Center end----- */
 
 @media(min-width:768px) {
 
@@ -164,6 +225,7 @@ body {
     .header-section {
         width: 700px;
         margin: auto;
+        margin-top: 10px;
     }
 
     .introduction {
@@ -192,6 +254,11 @@ body {
         padding-top: 50px;
     }
 
+
+    .buttons {
+        justify-content: stretch;
+    }
+
     .intro-right-side {
         padding-top: 20px;
     }
@@ -201,36 +268,157 @@ body {
         width: 300px;
     }
 
-    @media (min-width:1080px) {
-        .header-section {
-            width: 1000px;
-            margin: auto;
-        }
 
-        nav>a {
-            justify-content: space-between;
-            margin: 0px 15px;
-        }
-
-        .introduction {
-            width: 1000px;
-            margin: auto;
-            justify-content: space-between;
-        }
-
-        .intro-right-side {
-            width: 442px;
-        }
-
-        .intro-left-side {
-            width: 550px;
-        }
-
-        .lorem-p {
-            width: 558px;
-        }
-
-        .rocket-intro {
-            height: 400px;
-        }
+    .logo-ipsumm {
+        width: 700px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
     }
+
+    .logo-ipsum-1,
+    .logo-ipsum-2,
+    .logo-ipsum-3,
+    .logo-ipsum-4 {
+        display: block;
+        width: 160px;
+    }
+
+    .center {
+        width: 700px;
+        margin: auto;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .apply-deep-data {
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    .visual-mockups {
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    .center-left-side img {
+        width: 345px;
+    }
+
+    .center-right-side {
+        margin: 50px 0 30px 0;
+        width: 345px;
+    }
+
+    .learn-more {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width:1080px) {
+    .header-section {
+        width: 1000px;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    nav>a {
+        justify-content: space-between;
+        margin: 0px 15px;
+    }
+
+    .introduction {
+        width: 1000px;
+        margin: auto;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .intro-right-side {
+        width: 442px;
+    }
+
+    .intro-left-side {
+        width: 550px;
+        margin-top: 30px;
+    }
+
+    .first-button-intro {
+        margin: 0 10px 0 0;
+    }
+
+    .genaretion-p {
+        margin-bottom: 20px;
+    }
+
+    .lorem-p {
+        width: 558px;
+        margin-top: 30px;
+    }
+
+    .buttons {
+        margin-top: 40px;
+    }
+
+    .rocket-intro {
+        height: 400px;
+    }
+
+    .logo-ipsumm {
+        width: 1000px;
+        margin: 45px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo-ipsum-1,
+    .logo-ipsum-2,
+    .logo-ipsum-3,
+    .logo-ipsum-4 {
+        display: block;
+        width: 225px;
+    }
+
+    .center {
+        width: 1000px;
+        justify-content: space-between;
+      
+    }
+
+    .center-left-side {
+        width: 600px;
+        height: 600px;
+    }
+
+    .center-left-side img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .center-right-side {
+        width: 400px;
+        height: 600px;
+    }
+
+    .apply-deep-data {
+        margin-top: 150px;
+    }
+
+    .visual-mockups {
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 600;
+        margin: 25px 0;
+    }
+
+    .learn-more {
+        margin-bottom: 150px;
+        width: 150px;
+        border-radius: 5px;
+    }
+
+
+}
