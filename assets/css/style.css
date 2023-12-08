@@ -70,6 +70,7 @@ body {
 }
 
 /* TODO -----HEADER end----- */
+
 /* TODO -----Introduction start----- */
 .introduction {
     display: flex;
@@ -98,7 +99,7 @@ body {
 
 .intro-right-side {
     width: 320px;
-    margin: 20px 0px;
+    margin: 20px auto;
 }
 
 .intro-right-side img {
@@ -159,7 +160,7 @@ body {
 
 .center-left-side {
     width: 320px;
-    margin: 20px 0;
+    margin: 20px auto;
 }
 
 .center-left-side img {
@@ -191,6 +192,60 @@ body {
 }
 
 /* TODO -----Center end----- */
+
+/* TODO ----- cards start----- */
+
+.cards {
+    padding: 50px 0;
+}
+
+.card-div {
+    width: 300px;
+    height: 300px;
+    color: #FFFFFF;
+    background-color: #0e1523;
+    box-shadow: 6px 6px 6px -2px rgba(0, 0, 0, 0.67);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.card-div:hover {
+    opacity: 0.5;
+}
+
+.cards-div-img {
+    padding: 10px 0;
+    margin: 0 auto;
+    width: 80px;
+}
+
+.cards-h1 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 15px auto;
+}
+
+.cards-p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    width: 280px;
+    margin: auto;
+}
+
+.cards .card-div:not(:first-child) {
+    display: none;
+}
+
+.transition{
+    width: 65px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+   
+}
+
+/* TODO ----- cards end----- */
 
 @media(min-width:768px) {
 
@@ -316,6 +371,20 @@ body {
     .learn-more {
         margin-top: 20px;
     }
+
+    .cards {
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .cards .card-div:nth-child(1) {
+        display: none;
+    }
+
+    .cards .card-div:nth-child(even) {
+        display: block;
+    }
 }
 
 @media (min-width:1080px) {
@@ -363,13 +432,17 @@ body {
         margin-top: 40px;
     }
 
+    .arrow-button{
+        margin-right: 5px;
+    }
+
     .rocket-intro {
         height: 400px;
     }
 
     .logo-ipsumm {
         width: 1000px;
-        margin: 45px auto;
+        margin: 30px auto;
         display: flex;
         justify-content: space-between;
     }
@@ -385,7 +458,6 @@ body {
     .center {
         width: 1000px;
         justify-content: space-between;
-      
     }
 
     .center-left-side {
@@ -420,5 +492,8 @@ body {
         border-radius: 5px;
     }
 
+    .cards .card-div:not(:first-child) {
+        display: block;
+    }
 
 }
