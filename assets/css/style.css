@@ -8,7 +8,7 @@ body {
     border: none;
 }
 
-/* TODO Curtian overlay */
+/*  TODO ----- Curtian overlay ----- */
 .curtain-navbar .fa-xmark {
     color: #FFFFFF;
     font-size: 44px;
@@ -44,7 +44,7 @@ body {
     transform: translateX(20px);
 }
 
-/* TODO -----HEADER start ------*/
+/* TODO ----- HEADER start ------*/
 .nav-links,
 .btn {
     display: none;
@@ -69,9 +69,9 @@ body {
     color: #FFFFFF;
 }
 
-/* TODO -----HEADER end----- */
+/* TODO -----HEADER end ----- */
 
-/* TODO -----Introduction start----- */
+/* TODO -----Introduction start ----- */
 .introduction {
     display: flex;
     flex-direction: column-reverse;
@@ -131,9 +131,9 @@ body {
     align-items: center;
 }
 
-/* TODO -----Introduction end----- */
+/* TODO -----Introduction end ----- */
 
-/* TODO -----Logo-impuss start----- */
+/* TODO -----Logo-impuss start ----- */
 .logo-ipsum-2,
 .logo-ipsum-3,
 .logo-ipsum-4 {
@@ -150,9 +150,9 @@ body {
     width: 100%;
 }
 
-/* TODO -----Logo-impuss end----- */
+/* TODO -----Logo-impuss end ----- */
 
-/* TODO -----Center start----- */
+/* TODO -----Center start ----- */
 .center {
     display: flex;
     flex-direction: column;
@@ -191,9 +191,9 @@ body {
     margin-top: 10px;
 }
 
-/* TODO -----Center end----- */
+/* TODO -----Center end ----- */
 
-/* TODO ----- cards start----- */
+/* TODO ----- cards start ----- */
 
 .cards {
     padding: 50px 0;
@@ -238,14 +238,54 @@ body {
     display: none;
 }
 
-.transition{
+.transition {
     width: 65px;
     margin: 0 auto;
     padding-bottom: 20px;
-   
 }
 
-/* TODO ----- cards end----- */
+/* TODO ----- cards end ----- */
+
+/* TODO ----- result start ----- */
+
+.result {
+    color: #FFFFFF;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.result-right-side {
+    width: 320px;
+    margin: auto;
+}
+
+.result-right-side img {
+    width: 100%;
+}
+
+.result-left-side {
+    margin: 10px 0;
+}
+
+.result-left-side h1{
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.result-left-side p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.result-left-side p br {
+    display: none;
+}
+/* TODO ----- result end ----- */
 
 @media(min-width:768px) {
 
@@ -385,6 +425,34 @@ body {
     .cards .card-div:nth-child(even) {
         display: block;
     }
+
+    .result{
+        width: 700px;
+        flex-direction: row;
+        margin: 30px auto;
+    }
+
+    .result-right-side {
+        width: 350px;
+    }
+
+    .result-right-side img {
+        width: 100%;
+    }
+
+    .result-left-side{
+        width: 350px;
+    }
+
+    .result-left-side h1 {
+        font-size: 26px;
+        margin: 20px 0;
+    }
+
+    .result-left-side p {
+        margin: 10px 0;
+    }
+
 }
 
 @media (min-width:1080px) {
@@ -432,7 +500,7 @@ body {
         margin-top: 40px;
     }
 
-    .arrow-button{
+    .arrow-button {
         margin-right: 5px;
     }
 
@@ -494,6 +562,32 @@ body {
 
     .cards .card-div:not(:first-child) {
         display: block;
+    }
+
+    .result {
+        width: 1000px;
+        margin-top: 50px;
+    }
+
+    .result-left-side {
+        width: 500px;
+    }
+
+    .result-right-side {
+        width: 500px;
+    }
+
+    .result-right-side img {
+        width: 100%;
+    }
+
+    .result-left-side h1 {
+        font-size: 37px;
+    }
+
+    .result-left-side p {
+        font-size: 16px;
+        margin: 30px 0;
     }
 
 }
