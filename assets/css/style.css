@@ -474,7 +474,7 @@ body {
     }
 
     nav>a {
-        justify-content: space-between;
+        justify-content: space-between;        
         margin: 0px 15px;
     }
 
@@ -601,94 +601,163 @@ body {
         margin: 30px 0;
     }
 
-}
+    @media (min-width:1500px) {
 
-@media (min-width:1500px) {
+        .header-section {
+            width: 1146px;
+            height: 100px;
+            margin-top: 0;
+        }
 
-    .header-section {
-        width: 1146px;
-        height: 100px;
-        margin-top: 0;
+        .robot-control {
+            width: 283px;
+            height: 57px;
+        }
+
+        .robot-control img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .nav-links {
+            margin: 39px 256px 39px 84px;
+        }
+
+        .nav-links a {
+            width: 47px;
+            height: 22px;
+            gap: 40px;
+        }
+
+        .introduction {
+            width: 1350px;
+            padding-left: 200px;
+        }
+
+        .intro-left-side {
+            width: 604px;
+            height: 415px;
+            margin-top: 75px;
+        }
+
+        .intro-left-side h1 {
+            font-size: 55px;
+            font-style: normal;
+            font-weight: 800;
+            width: 604px;
+            height: 142px;
+        }
+
+        .intro-left-side .genaretion-platform {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+        }
+
+        .intro-left-side .lorem-control {
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+        }
+
+        .intro-right-side {
+            width: 632px;
+            height: 634px;
+            color: rgb(165, 153, 153);
+            margin-left: 114px;
+            margin-top: 0px;
+        }
+
+        .intro-right-side img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .logo-ipsumm {
+            width: 1146.449px;
+            height: 59px;
+        }
+
+        .logo-ipsum-1,
+        .logo-ipsum-2,
+        .logo-ipsum-3,
+        .logo-ipsum-4 {
+            width: 220px;
+            height: 60px;
+        }
+
+        .logo-ipsum-1 {
+            margin: 0;
+        }
+
+        .center {
+            width: 1277px;
+            margin-left: 256px;
+            margin-right: 387px;
+        }
+
+        .center-right-side {
+            margin-bottom: 0;
+        }
+
+        .center-left-side {
+            width: 650px;
+            height: 550px;
+        }
+
+        .center-left-side img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .apply-deep-data {
+            width: 484px;
+            font-size: 40px;
+        }
+
+        .visual-mockups {
+            width: 460px;
+            font-size: 16px;
+        }
+
+        .learn-more {
+            margin-bottom: 0;
+        }
+
+        .cards .card-div:nth-child(1) {
+            display: block;
+        }
+
+        .result {
+            width: 1146px;
+            height: 551px;
+        }
+
+        .result-left-side {
+            width: 548px;
+        }
+
+        .result-left-side h1 {
+            font-size: 39px;
+            font-style: normal;
+            font-weight: 700;
+        }
+
+        .result-left-side p {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            gap: 20px;
+        }
+
+        .result-right-side {
+            width: 642px;
+            height: 551px;
+        }
+
+        .result-right-side img {
+            width: 100%;
+            height: 100%;
+        }
+
     }
-
-    .robot-control {
-        width: 283px;
-        height: 57px;
-    }
-
-    .robot-control img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .nav-links {
-        margin: 39px 256px 39px 84px;
-    }
-
-    .nav-links a {
-        width: 47px;
-        height: 22px;
-        gap: 40px;
-    }
-
-    .introduction {
-        width: 1350px;
-        padding-left: 200px;
-    }
-
-    .intro-left-side {
-        width: 604px;
-        height: 415px;
-        margin-top: 75px;
-    }
-
-    .intro-left-side h1 {
-        font-size: 55px;
-        font-style: normal;
-        font-weight: 800;
-        width: 604px;
-        height: 142px;
-    }
-
-    .intro-left-side .genaretion-platform {
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-    }
-
-    .intro-left-side .lorem-control {
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-    }
-
-    .intro-right-side {
-        width: 632px;
-        height: 634px;
-        color: rgb(165, 153, 153);
-        margin-left: 114px;
-        margin-top: 0px;
-    }
-
-    .intro-right-side img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .logo-ipsumm {
-        width: 1146.449px;
-        height: 59px;
-    }
-
-    .logo-ipsum-1,
-    .logo-ipsum-2,
-    .logo-ipsum-3,
-    .logo-ipsum-4 {
-        width: 220px;
-        height: 60px;
-    }
-
-    .logo-ipsum-1{
-        margin: 0;
-    }
-}
