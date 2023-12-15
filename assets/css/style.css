@@ -292,6 +292,78 @@ body {
 
 /* TODO ----- result end ----- */
 
+/* TODO ----- footer start ----- */
+.footer {
+    background-color: #070e1c;
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 30px;
+    padding: 10px 40px 50px 40px;
+}
+
+.column-left h2 {
+    font-size: 15.963px;
+    font-style: normal;
+    font-weight: 600;
+    color: #3A68B8;
+    margin-top: 3px;
+}
+
+.column-left p,
+.column-left div,
+.column-right p,
+.column-left a,
+.column-right a,
+.column-left span {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 450;
+}
+
+.column-center h3,
+.column-right h3 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+
+.column-left p{
+    margin: 10px 0 37px 0;
+}
+.column-left div{
+    margin: 10px 0;
+}
+
+.column-center p {
+    margin: 20px 0;
+}
+
+.column-right p{
+    margin: 10px 0 31px 0;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 21px 0 40px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+select {
+    background-color: transparent;
+    color: gray;
+    border: none;
+}
+
+/* TODO ----- footer end ----- */
+
 @media(min-width:768px) {
 
     .curtain-navbar {
@@ -474,7 +546,7 @@ body {
     }
 
     nav>a {
-        justify-content: space-between;        
+        justify-content: space-between;
         margin: 0px 15px;
     }
 
@@ -599,6 +671,10 @@ body {
     .result-left-side p {
         font-size: 16px;
         margin: 30px 0;
+    }
+
+    .footer{
+        padding: 77px 100px;
     }
 
     @media (min-width:1500px) {
@@ -760,4 +836,7 @@ body {
             height: 100%;
         }
 
+        .footer{
+            padding: 77px 316px 148px 316px ;
+        }
     }
