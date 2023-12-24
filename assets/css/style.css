@@ -24,8 +24,9 @@ body {
     background-color: rgba(156, 156, 156, 156);
     height: 100vh;
     position: fixed;
-    width: 0%;
+    width: 0;
     overflow-x: hidden;
+    transition: 1.2s cubic-bezier(.92,.34,.2,1.33);
 }
 
 .curtain-navbar a {
@@ -33,7 +34,7 @@ body {
     margin-top: 20px;
     font-size: 34px;
     text-decoration: none;
-    transition: 0.5s;
+    transition: .5s ease;
 }
 
 .curtain-navbar .overlay-nav-links {
@@ -138,11 +139,11 @@ body {
 /* TODO -----Introduction end ----- */
 
 /* TODO -----Logo-impuss start ----- */
-.logo-ipsum-2,
+/* .logo-ipsum-2,
 .logo-ipsum-3,
 .logo-ipsum-4 {
     display: none;
-}
+} */
 
 .logo-ipsumm {
     width: 250px;
@@ -371,9 +372,9 @@ select {
 
 @media(min-width:768px) {
 
-    .curtain-navbar {
+    /* .curtain-navbar {
         display: none;
-    }
+    } */
 
     .nav-links,
     .href {
@@ -453,11 +454,15 @@ select {
 
 
     .logo-ipsumm {
-        width: 700px;
+        width: 700px !important;
         margin-top: 20px;
         display: flex;
         justify-content: space-between;
     }
+
+    /* .swiper-slide {
+        width: 100%;
+    } */
 
     .logo-ipsum-1,
     .logo-ipsum-2,
@@ -465,6 +470,20 @@ select {
     .logo-ipsum-4 {
         display: block;
         width: 160px;
+    }
+
+    .swiper {
+        margin: 0 auto;
+    }
+
+    .logo-ipsumm {
+        display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo-ipsumm img {
+        width: 200px !important;
     }
 
     .center {
