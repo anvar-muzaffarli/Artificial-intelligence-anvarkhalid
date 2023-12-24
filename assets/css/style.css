@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
+title {
+    background-color: #3A68B8;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: rgb(9, 16, 30);
@@ -329,10 +333,11 @@ body {
     margin-bottom: 45px;
 }
 
-.column-left p{
+.column-left p {
     margin: 10px 0 37px 0;
 }
-.column-left div{
+
+.column-left div {
     margin: 10px 0;
 }
 
@@ -340,7 +345,7 @@ body {
     margin: 20px 0;
 }
 
-.column-right p{
+.column-right p {
     margin: 10px 0 31px 0;
 }
 
@@ -673,7 +678,7 @@ select {
         margin: 30px 0;
     }
 
-    .footer{
+    .footer {
         padding: 77px 100px;
     }
 
@@ -836,7 +841,7 @@ select {
             height: 100%;
         }
 
-        .footer{
-            padding: 77px 316px 148px 316px ;
+        .footer {
+            padding: 77px 316px 148px 316px;
         }
     }
